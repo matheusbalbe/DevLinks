@@ -12,7 +12,6 @@
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moons-stars.svg);
-  
 }
 .light {
   --text-color: black;
@@ -22,7 +21,6 @@
   --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
-
 }
 body {
   /*
@@ -36,8 +34,8 @@ body {
 }
 
 body * {
-    font-family: 'Inter', sans-serif;
-    color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
 }
 
 /*Background: color image repeat position/size*/
@@ -55,7 +53,7 @@ body * {
   Uso Margin 2 valores: muda o de cima, e as laterais
   Uso Magin 3 valores: muda o de cima, e as laterais, muda o de baixo(bottom)
 */
-padding: 0 24px;
+  padding: 0 24px;
 }
 
 #profile {
@@ -76,18 +74,17 @@ padding: 0 24px;
 }
 
 #profile p {
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: 8px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
 }
 /*Swicht*/
-#switch{
-
+#switch {
   position: relative;
   width: 64px;
   margin: 4px auto;
 }
-#switch button{
+#switch button {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -102,16 +99,14 @@ padding: 0 24px;
 
   animation: slide-back 0.2s;
 }
-#switch button:hover{
-  outline: 8px solid var(--highlight-color)
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
-.light #switch button{
-  right: 0;
-  left: initial;
-  animation: slide-in 0.2s;
+.light #switch button {
+  animation: slide-in 0.2s forwards;
 }
 
-#switch span{
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
@@ -124,7 +119,7 @@ padding: 0 24px;
 
 /*Links*/
 
-ul{
+ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -134,7 +129,7 @@ ul{
 
 ul li a {
   display: flex;
-  justify-content: center;  /*Alinha ao centro da pagina*/
+  justify-content: center; /*Alinha ao centro da pagina*/
   align-items: center; /*Alinha ao centro(main) da caixa*/
   padding: 16px 24px;
 
@@ -160,7 +155,7 @@ ul li a:hover {
   padding: 24px 0;
   font-size: 24px;
 }
-#social-links a{
+#social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,7 +169,7 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-footer{
+footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
